@@ -10,7 +10,7 @@
 
 ---
 
-So far, we've used a very traditional rendering style for the map. Hash symbols for walls, periods for floors. It looks pretty nice, but games like *Dwarf Fortress* do a lovely job of using codepage 437's line-drawing characters to make the walls of the dungeon look smooth. This short chapter will show how to use a `bitmask` to calculate appropriate walls, and render them appropriately. As usual, we'll start from the code from the previous chapter (chapter 1.14).
+So far, we've used a very traditional rendering style for the map. Hash symbols for walls, periods for floors. It looks pretty nice, but games like *Dwarf Fortress* do a lovely job of using codepage 437's line-drawing characters to make the walls of the dungeon look smooth. This short chapter will show how to use a `bitmask` to calculate appropriate walls, and render them appropriately. As usual, we'll start with the code from the last chapter, picking up from the end of Section 1.
 
 ## Counting neighbors to build our bitset
 
